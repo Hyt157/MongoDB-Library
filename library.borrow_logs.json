@@ -1,0 +1,293 @@
+[{
+  "_id": {
+    "$oid": "6accc937fb02127805482fcc"
+  },
+  "borrow_date": {
+    "$date": "2024-10-15T10:30:00.000Z"
+  },
+  "reader_card": "R20240007",
+  "book_isbn": "9787040405241",
+  "status": "借出"
+},
+{
+  "_id": {
+    "$oid": "6accc937fb02127805482fb9"
+  },
+  "borrow_date": {
+    "$date": "2024-11-22T01:17:00.000Z"
+  },
+  "status": "已归还",
+  "reader_card": "R20240008",
+  "book_isbn": "9787040405241",
+  "return_date": {
+    "$date": "2025-01-19T23:01:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6accc937fb02127805482fe9"
+  },
+  "borrow_date": {
+    "$date": "2024-11-22T01:53:00.000Z"
+  },
+  "status": "已归还",
+  "reader_card": "R20240008",
+  "book_isbn": "9787020042033",
+  "return_date": {
+    "$date": "2025-01-14T23:49:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6accc937fb02127805482fc5"
+  },
+  "borrow_date": {
+    "$date": "2024-11-22T13:41:00.000Z"
+  },
+  "status": "已归还",
+  "reader_card": "R20240004",
+  "book_isbn": "9787521711881",
+  "return_date": {
+    "$date": "2024-12-19T11:13:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6accc937fb02127805482fbe"
+  },
+  "borrow_date": {
+    "$date": "2024-11-30T16:52:00.000Z"
+  },
+  "status": "已归还",
+  "reader_card": "R20240001",
+  "book_isbn": "9787302423282",
+  "return_date": {
+    "$date": "2025-01-02T00:56:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6accc937fb02127805482fb2"
+  },
+  "borrow_date": {
+    "$date": "2024-12-01T04:28:00.000Z"
+  },
+  "reader_card": "R20240005",
+  "book_isbn": "9787521711881",
+  "return_date": {
+    "$date": "2024-12-24T12:44:00.000Z"
+  },
+  "status": "已归还"
+},
+{
+  "_id": {
+    "$oid": "6accc937fb02127805482fcf"
+  },
+  "borrow_date": {
+    "$date": "2025-01-07T19:51:00.000Z"
+  },
+  "status": "已归还",
+  "reader_card": "R20240006",
+  "book_isbn": "9787115293800",
+  "return_date": {
+    "$date": "2025-03-04T13:03:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6accc937fb02127805482fc8"
+  },
+  "borrow_date": {
+    "$date": "2025-02-14T22:02:00.000Z"
+  },
+  "reader_card": "R20240003",
+  "book_isbn": "9787115546081",
+  "return_date": {
+    "$date": "2025-04-16T02:46:00.000Z"
+  },
+  "status": "已归还"
+},
+{
+  "_id": {
+    "$oid": "6accc937fb02127805482fc1"
+  },
+  "borrow_date": {
+    "$date": "2025-03-22T01:13:00.000Z"
+  },
+  "status": "已归还",
+  "reader_card": "R20240016",
+  "book_isbn": "9787115428028",
+  "return_date": {
+    "$date": "2025-04-15T15:29:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6accc937fb02127805482fe5"
+  },
+  "borrow_date": {
+    "$date": "2025-03-22T13:25:00.000Z"
+  },
+  "status": "借出",
+  "reader_card": "R20240004",
+  "book_isbn": "9787115298428"
+},
+{
+  "_id": {
+    "$oid": "6accc937fb02127805482fde"
+  },
+  "borrow_date": {
+    "$date": "2025-03-31T16:36:00.000Z"
+  },
+  "status": "已归还",
+  "reader_card": "R20240001",
+  "book_isbn": "9787521701326",
+  "return_date": {
+    "$date": "2025-05-26T16:48:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6accc937fb02127805482fd7"
+  },
+  "borrow_date": {
+    "$date": "2025-05-07T19:47:00.000Z"
+  },
+  "status": "已归还",
+  "reader_card": "R20240014",
+  "book_isbn": "9787532718758",
+  "return_date": {
+    "$date": "2025-05-28T05:31:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6accc937fb02127805482fb3"
+  },
+  "borrow_date": {
+    "$date": "2025-05-08T07:35:00.000Z"
+  },
+  "status": "借出",
+  "reader_card": "R20240010",
+  "book_isbn": "9787518910041"
+},
+{
+  "_id": {
+    "$oid": "6accc937fb02127805482fd0"
+  },
+  "borrow_date": {
+    "$date": "2025-06-14T22:58:00.000Z"
+  },
+  "status": "已归还",
+  "reader_card": "R20240011",
+  "book_isbn": "9787549529322",
+  "return_date": {
+    "$date": "2025-07-09T18:14:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6accc937fb02127805482fc2"
+  },
+  "borrow_date": {
+    "$date": "2025-08-01T04:20:00.000Z"
+  },
+  "status": "借出",
+  "reader_card": "R20240005",
+  "book_isbn": "9787302653315"
+},
+{
+  "_id": {
+    "$oid": "6accc937fb02127805482fbb"
+  },
+  "borrow_date": {
+    "$date": "2025-09-08T07:31:00.000Z"
+  },
+  "status": "已归还",
+  "reader_card": "R20240002",
+  "book_isbn": "9787121362726",
+  "return_date": {
+    "$date": "2025-10-18T09:23:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6accc937fb02127805482feb"
+  },
+  "borrow_date": {
+    "$date": "2025-09-08T07:07:00.000Z"
+  },
+  "status": "已归还",
+  "reader_card": "R20240002",
+  "book_isbn": "9787521711881",
+  "return_date": {
+    "$date": "2025-10-13T09:11:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6accc937fb02127805482fb4"
+  },
+  "borrow_date": {
+    "$date": "2025-10-15T10:42:00.000Z"
+  },
+  "status": "已归还",
+  "reader_card": "R20240015",
+  "book_isbn": "9787121362855",
+  "return_date": {
+    "$date": "2025-11-28T22:06:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6accc937fb02127805482fe4"
+  },
+  "borrow_date": {
+    "$date": "2025-10-15T10:18:00.000Z"
+  },
+  "status": "已归还",
+  "reader_card": "R20240015",
+  "book_isbn": "9787302423282",
+  "return_date": {
+    "$date": "2025-11-23T22:54:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6accc937fb02127805482fd6"
+  },
+  "borrow_date": {
+    "$date": "2025-11-30T16:40:00.000Z"
+  },
+  "status": "借出",
+  "reader_card": "R20240009",
+  "book_isbn": "9787020042033"
+},
+{
+  "_id": {
+    "$oid": "6ad75a2e4b287382fe9e4820"
+  },
+  "borrow_date": {
+    "$date": "2026-10-20T20:10:22.147Z"
+  },
+  "book_isbn": "9787115428028",
+  "reader_card": "R20240001",
+  "status": "已归还",
+  "return_date": {
+    "$date": "2026-10-20T12:20:05.638Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6ad75aa65272fa37fd7df608"
+  },
+  "borrow_date": {
+    "$date": "2026-10-20T12:12:22.225Z"
+  },
+  "book_isbn": "9787115428028",
+  "reader_card": "R20240001",
+  "status": "已归还",
+  "return_date": {
+    "$date": "2026-10-20T12:20:05.638Z"
+  }
+}]
