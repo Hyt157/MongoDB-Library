@@ -1,3 +1,4 @@
+import log_manager
 from mongodb_connect import MongoDBConnect
 
 class BookManager:
@@ -40,3 +41,19 @@ class BookManager:
         print(f"--- 评分 Top {limit} ---")
         for book in results:
             print(f"《{book.get('title')}》 - 评分: {book.get('rating')}")
+    def add_book(self, book_data):
+        """新增图书"""
+        self.db.books.insert_one(book_data)
+        print(f"✅ 新增图书成功: {book_data.get('title')}")
+        # 写入操作日志
+        log_manager.record_log("新增图书", book_data.get('title', '未知书名'))
+
+    def delete_book(self, isbn):
+        """删除图书"""
+        result = self.db.books.delete_one({"isbn": isbn})
+        if result.deleted_count > 0:
+            print(f"✅ 删除图书成功 (ISBN: {isbn})")
+            # 写入操作日志
+            log_manager.record_log("删除图书", f"ISBN_{isbn}")
+        else:
+            print("❌ 未找到该图书，删除失败。")

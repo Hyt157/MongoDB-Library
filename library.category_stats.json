@@ -1,25 +1,24 @@
 [{
-  "_id": "计算机",
-  "count": 7,
-  "avg_rating": 4.5
+  "_id": "数学",
+  "stock": 122
 },
 {
-  "_id": "数学",
-  "count": 3,
-  "avg_rating": 4.666666666666667
+  "_id": "计算机",
+  "stock": 172
 },
 {
   "_id": "外语",
-  "count": 2,
-  "avg_rating": 4.35
-},
-{
-  "_id": "文学",
-  "count": 5,
-  "avg_rating": 4.7
+  "stock": 72
 },
 {
   "_id": "经济管理",
-  "count": 3,
-  "avg_rating": 4.2
+  "stock": 64
+},
+{
+  "_id": "历史",
+  "stock": 50
+},
+{
+  "_id": "文学",
+  "stock": 181
 }]
